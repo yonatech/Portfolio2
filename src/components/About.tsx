@@ -31,7 +31,7 @@ const About: React.FC = () => {
               <div className="relative">
                 <div className="w-80 h-80 mx-auto lg:mx-0 rounded-2xl bg-gradient-to-br from-blue-400 via-purple-500 to-emerald-400 p-1 shadow-2xl">
                   <div className="w-full h-full rounded-2xl bg-gray-200 dark:bg-gray-700 flex items-center justify-center">
-                    <span className="text-8xl font-bold text-gray-600 dark:text-gray-300">JD</span>
+                    <span className="text-8xl font-bold text-gray-600 dark:text-gray-300">YH</span>
                   </div>
                 </div>
                 {/* Floating badges */}

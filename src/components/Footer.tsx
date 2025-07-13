@@ -81,9 +81,9 @@ const Footer: React.FC = () => {
             <div>
               <h3 className="text-xl font-semibold mb-4">Contact</h3>
               <div className="space-y-3 text-gray-300">
-                <p>San Francisco, CA</p>
-                <p>john.doe@example.com</p>
-                <p>+1 (555) 123-4567</p>
+                <p>Addis Ababa, Ethiopia</p>
+                <p>Yonnyhailu@gamil.com</p>
+                <p>+251943886707</p>
               </div>
               
               {/* Back to Top Button */}
@@ -101,7 +101,7 @@ const Footer: React.FC = () => {
           <div className="border-t border-gray-800 mt-12 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="flex items-center gap-2 text-gray-400">
-                <span>© {currentYear} John Doe. Made with</span>
+                <span>© {currentYear} YONATAN HAILU. Made with</span>
                 <Heart className="w-4 h-4 text-red-500 animate-pulse" />
                 <span>and lots of coffee.</span>
               </div>

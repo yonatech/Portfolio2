@@ -34,20 +34,20 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: 'Email',
-      value: 'john.doe@example.com',
-      href: 'mailto:john.doe@example.com'
+      value: 'Yonnyhailu@gamil.com',
+      href: 'mailto:Yonnyhailu@gamil.com'
     },
     {
       icon: <Phone className="w-6 h-6" />,
       label: 'Phone',
-      value: '+1 (555) 123-4567',
-      href: 'tel:+15551234567'
+      value: '+251943886707',
+      href: 'tel:+251943886707'
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       label: 'Location',
-      value: 'San Francisco, CA',
-      href: '#'
+      value: 'Addis Ababa, Ethiopia',
+      href: 'https://maps.app.goo.gl/MsNWEgtPhknL4PL98'
     }
   ];
 
@@ -55,25 +55,25 @@ const Contact: React.FC = () => {
     {
       icon: <Github className="w-6 h-6" />,
       label: 'GitHub',
-      href: '#',
+      href: 'https://github.com/yonatech',
       color: 'hover:text-gray-900 dark:hover:text-gray-100'
     },
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: 'LinkedIn',
-      href: '#',
+      href: 'https://www.linkedin.com/in/yonatan-hailu-5a132a272/',
       color: 'hover:text-blue-600'
     },
     {
       icon: <Twitter className="w-6 h-6" />,
       label: 'Twitter',
-      href: '#',
+      href: 'https://x.com/SEE_X_SEE',
       color: 'hover:text-blue-400'
     },
     {
       icon: <MessageCircle className="w-6 h-6" />,
       label: 'Discord',
-      href: '#',
+      // href: '#',
       color: 'hover:text-indigo-500'
     }
   ];
@@ -199,13 +199,14 @@ const Contact: React.FC = () => {
                       key={index}
                       href={info.href}
                       className="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-50 dark:hover:bg-gray-600 transition-colors duration-200 group"
+                      target="_blank"
                     >
                       <div className="p-3 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg text-white group-hover:scale-110 transition-transform duration-200">
                         {info.icon}
                       </div>
                       <div>
-                        <p className="text-sm text-gray-600 dark:text-gray-400">{info.label}</p>
-                        <p className="font-semibold text-gray-800 dark:text-white">{info.value}</p>
+                        <p className="text-sm text-gray-600 dark:text-gray-400" >{info.label }</p>
+                        <p className="font-semibold text-gray-800 dark:text-white">{info.value }</p>
                       </div>
                     </a>
                   ))}
@@ -224,6 +225,7 @@ const Contact: React.FC = () => {
                       key={index}
                       href={social.href}
                       className={`flex items-center gap-3 p-4 rounded-lg border border-gray-200 dark:border-gray-600 hover:border-blue-500 dark:hover:border-blue-400 transition-all duration-200 group ${social.color}`}
+                      target="_blank"
                     >
                       <div className="group-hover:scale-110 transition-transform duration-200">
                         {social.icon}
